@@ -10,6 +10,9 @@
 	margin-right: 100px;
 	font-weight: 300;
 }
+.section-header {
+	font-weight: 300px;
+}
 @media only screen and (max-width: 939px) {
 	.mybtn {
 		margin-top: 200px;
