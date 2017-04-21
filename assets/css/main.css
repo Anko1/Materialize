@@ -2,3 +2,16 @@
 	font-weight: 300;
 	padding-left: 30px;
 }
+  .parallax-container {
+      height: 300px;
+    }
+.inf {
+	font-size: 25px;
+	margin-right: 100px;
+	font-weight: 300;
+}
+@media only screen and (max-width: 939px) {
+	.mybtn {
+		margin-top: 200px;
+	}
+
