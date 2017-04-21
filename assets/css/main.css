@@ -13,6 +13,10 @@
 .section-header {
 	font-weight: 300px;
 }
+.cta {
+	font-weight: 300px;
+	text-shadow: 1px 1px black;
+}
 @media only screen and (max-width: 939px) {
 	.mybtn {
 		margin-top: 200px;
