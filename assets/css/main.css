@@ -17,6 +17,9 @@
 	font-weight: 300px;
 	text-shadow: 1px 1px black;
 }
+.contact-form {
+	padding-top: 40px;
+}
 @media only screen and (max-width: 939px) {
 	.mybtn {
 		margin-top: 200px;
