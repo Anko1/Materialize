@@ -11,17 +11,28 @@
 	font-weight: 300;
 }
 .section-header {
-	font-weight: 300px;
+	font-weight: 300;
 }
 .cta {
-	font-weight: 300px;
+	font-weight: 300;
 	text-shadow: 1px 1px black;
 }
 .contact-form {
 	padding-top: 40px;
 }
+.page-footer {
+	margin-top: 50px;
+}
+.a-hide{opacity: 0;}
+.a-show{opacity: 1;}
+/*.magictime {*/
+	/*-webkit-animation-duration: 2s;*/
+	/*-moz-animation-duration: 2s;*/
+	/*-o-animation-duration: 2s;*/
+	/*animation-duration: 2s;*/
+/*}*/
 @media only screen and (max-width: 939px) {
 	.mybtn {
 		margin-top: 200px;
 	}
-
+}
