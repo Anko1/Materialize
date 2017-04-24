@@ -19,8 +19,39 @@ $( document ).ready(function(){
             offset: 200
         });
 
-    // $('.q-left').hover(function () {
-    //     $(this).addClass('magictime puffIn');
-    // });
+     $('.btn-large')
+        .addClass('a-hide')
+        .viewportChecker({
+            classToAdd: 'a-show magictime vanishIn',
+            classToRemove: 'a-hide',
+            offset: 200
+        });
 
+     $('.tli')
+        .addClass('a-hide')
+        .viewportChecker({
+            classToAdd: 'a-show magictime tinLeftIn',
+            classToRemove: 'a-hide',
+            offset: 200
+        });
+
+        $('.tdi')
+        .addClass('a-hide')
+        .viewportChecker({
+            classToAdd: 'a-show magictime tinDownIn',
+            classToRemove: 'a-hide',
+            offset: 200
+        });
+        $('.tri')
+        .addClass('a-hide')
+        .viewportChecker({
+            classToAdd: 'a-show magictime tinRightIn',
+            classToRemove: 'a-hide',
+            offset: 200
+        });
+
+        setInterval(function(){
+        	$('.brand-logo').toggleClass('animated tada');
+        }, 1000);
+   
 });

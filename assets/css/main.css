@@ -25,12 +25,12 @@
 }
 .a-hide{opacity: 0;}
 .a-show{opacity: 1;}
-/*.magictime {*/
-	/*-webkit-animation-duration: 2s;*/
-	/*-moz-animation-duration: 2s;*/
-	/*-o-animation-duration: 2s;*/
-	/*animation-duration: 2s;*/
-/*}*/
+ .magictime.vanishIn {
+	-webkit-animation-duration: 0.33s;
+	-moz-animation-duration: 0.33s;
+	-o-animation-duration: 0.33s;
+	animation-duration: 0.33s;
+} 
 @media only screen and (max-width: 939px) {
 	.mybtn {
 		margin-top: 200px;
